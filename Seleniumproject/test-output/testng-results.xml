@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55345" started-at="2018-05-25T02:44:06Z" finished-at="2018-05-25T02:45:01Z">
+    <groups>
+    </groups>
+    <test name="On Chrome" duration-ms="53007" started-at="2018-05-25T02:44:06Z" finished-at="2018-05-25T02:44:59Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="g(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@4cc0edeb]" name="g" duration-ms="52958" started-at="2018-05-25T08:14:06Z" finished-at="2018-05-25T08:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- On Chrome -->
+    <test name="On Firefox" duration-ms="55345" started-at="2018-05-25T02:44:06Z" finished-at="2018-05-25T02:45:01Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="g(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@2ef5e5e3]" name="g" duration-ms="55300" started-at="2018-05-25T08:14:06Z" finished-at="2018-05-25T08:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- On Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
